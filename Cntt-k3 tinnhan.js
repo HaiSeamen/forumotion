@@ -1,0 +1,1 @@
+﻿$(function(g){var tg=document.getElementById('i_icon_mini_new_message');if(!tg)return;var mps=$(tg).attr("alt").match(/[0-9]+/);$('li a[href^="/privmsg"]').attr('data-counter',''+mps+'')});
